@@ -57,11 +57,15 @@ public class Film {
         this.rating = rating;
     }
 
+    public Film(String title, int thumbnail) {
+        this.title = title;
+        this.thumbnail = thumbnail;
+    }
+
     public String getStreamingLink() {
         return streamingLink;
     }
 
     public void setStreamingLink(String streamingLink) {
         this.streamingLink = streamingLink;
-    }
-}
+    }}
