@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FilmDetailActivity">
+    tools:context=".FilmDetailActivity"
+    android:background="@color/colorPrimary">
 
     <ImageView
+        android:transitionName="sharedName"
         android:scaleType="centerCrop"
         android:id="@+id/detail_movie_img"
         android:layout_width="125dp"
